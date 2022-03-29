@@ -1,0 +1,83 @@
+.App {
+  min-height: 100vh;
+  background-color: #232C33;
+  //color scheme
+  // #5A7D7C #DADFF7 #232C33 #A0C1D1 #B5B2C2
+
+  .header-container {
+    padding: 2rem;
+    display: flex;
+    font-size: 4rem;
+    .onism-label-text {
+      color: #5A7D7C;
+      margin-right: 4rem;
+    }
+    .onism-logo-text {
+      color: #DADFF7;
+    }
+    .onism-links-text {
+      font-size: 1.2rem;
+      margin-left: auto;
+      color: #5A7D7C;
+      text-decoration: none;
+      font-style: italic;
+    }
+  }
+  .settings-container {
+    font-size: 2rem;
+    margin-top: 8rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #A0C1D1;
+
+    .setting-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.5rem;
+      .settings-item {
+        display: block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #B5B2C2;
+        background-color: #232C33;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #B5B2C2;
+        text-align: center;
+        padding: 40px 60px;
+        margin-bottom: 1rem;
+        border: solid 3px #6e7491;
+        border-top-left-radius: 37px 140px;
+        border-top-right-radius: 23px 130px;
+        border-bottom-right-radius: 120px 24px;
+        border-bottom-left-radius: 110px 19px;
+        &:focus {
+          outline: none !important;
+          border:3px solid #5A7D7C;
+          box-shadow: 0 0 10px #719ECE;
+          transform: rotate(-1deg);
+        }
+        &:hover {
+          box-shadow: 3px 15px 8px -10px rgb(0 0 0 / 30%);
+          transform: rotate(-1deg);
+        }
+      }
+    }
+    .player-comp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 60px;
+      border: solid 3px #6e7491;
+      border-top-left-radius: 15px 32px;
+      border-top-right-radius: 15px 32px;
+      border-bottom-right-radius: 15px 32px;
+      border-bottom-left-radius: 15px 32px;
+    }
+  }
+}
