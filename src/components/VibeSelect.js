@@ -49,7 +49,7 @@ function VibeSelect(props) {
                 </section>
               }>            
         </Route>
-        <Route path="/bgmusic" 
+        <Route path="/project-onism/bgmusic" 
            element=
            { <section className="settings-container">
                <div className="settings-label">Select your feel</div>
@@ -63,7 +63,7 @@ function VibeSelect(props) {
              </section>
            }>
         </Route>
-        <Route path="/feelgood" 
+        <Route path="/project-onism/feelgood" 
            element=
            { <section className="settings-container">
                <div className="settings-label">Select your feel</div>
@@ -77,7 +77,7 @@ function VibeSelect(props) {
              </section>
            }>
         </Route>
-        <Route path="/bgmusic/lofi" 
+        <Route path="/project-onism/bgmusic/lofi" 
            element=
            { <section className="settings-container">
                {/* <Player song={songSelection("lofi")[currentSongIndex]}></Player> */}

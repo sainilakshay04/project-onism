@@ -6,31 +6,31 @@ function App() {
     "settingTypes":[
        {
           "settingName":"Background | Work",
-          "urlEnd":"/bgmusic"
+          "urlEnd":"/project-onism/bgmusic"
        },
        {
           "settingName":"Feel Good",
-          "urlEnd":"/feelgood"
+          "urlEnd":"/project-onism/feelgood"
        }
     ],
     "bgMusicTypes":[
        {
           "settingName":"LoFi",
-          "urlEnd":"/bgmusic/lofi"
+          "urlEnd":"/project-onism/bgmusic/lofi"
        },
        {
           "settingName":"Ambient",
-          "urlEnd":"/bgmusic/ambient"
+          "urlEnd":"/project-onism/bgmusic/ambient"
        }
     ],
     "feelGoodMusicTypes":[
       {
          "settingName":"Chill",
-         "urlEnd":"/feelgood/chill"
+         "urlEnd":"/project-onism/feelgood/chill"
       },
       {
          "settingName":"Rave",
-         "urlEnd":"/feelgood/rave"
+         "urlEnd":"/project-onism/feelgood/rave"
       }
    ]
  }
