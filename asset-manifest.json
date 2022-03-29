@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-onism/static/css/main.938a90f2.css",
+    "main.js": "/project-onism/static/js/main.df2a662d.js",
+    "static/js/787.f2d4b2f1.chunk.js": "/project-onism/static/js/787.f2d4b2f1.chunk.js",
+    "index.html": "/project-onism/index.html",
+    "main.938a90f2.css.map": "/project-onism/static/css/main.938a90f2.css.map",
+    "main.df2a662d.js.map": "/project-onism/static/js/main.df2a662d.js.map",
+    "787.f2d4b2f1.chunk.js.map": "/project-onism/static/js/787.f2d4b2f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.938a90f2.css",
+    "static/js/main.df2a662d.js"
+  ]
+}
