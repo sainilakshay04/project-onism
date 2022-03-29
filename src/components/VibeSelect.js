@@ -8,7 +8,7 @@ import {BrowserRouter as Router,
 function VibeSelect(props) {
   const [songs,setSongs] = 
     useState([
-        {title:"Deep Six", category:"lofi", src:"../music/Alix Perez - Deep Six.mp3",artist:"Alix Perez"},
+        {title:"Deep Six", category:"lofi", src:"../project-onism/music/Alix Perez - Deep Six.mp3",artist:"Alix Perez"},
         {title:"second", category:"lofi"},
         {title:"third", category:"lofi"},
         {title:"4th", category:"lofi"},
