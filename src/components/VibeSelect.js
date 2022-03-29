@@ -35,7 +35,7 @@ function VibeSelect(props) {
     return (
       <Router>
         <Routes>
-          <Route path="/" 
+          <Route path="/project-onism/" 
             element=
               { <section className="settings-container">
                   <div className="settings-label">Pick a Vibe</div>
