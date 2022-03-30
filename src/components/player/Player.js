@@ -12,8 +12,17 @@ function Player(props) {
       } else {
         audioEle.current.pause();
       }
-    })
+      
+      audioEle.current.addEventListener('ended', () => props.setCurrentSongIndex(()=>{
+        let temp = props.currentSongIndex;
+        temp++;
 
+        if(temp>props.songs.length-1) {
+          temp=0;
+        }
+        return temp;
+      }));
+    })
     const SkipSong = (forwards = true) => {
       if(forwards) {
         props.setCurrentSongIndex(()=>{
@@ -42,7 +51,7 @@ function Player(props) {
     return (
       <div className="player-comp">
         <audio ref={audioEle} src={props.songs[props.currentSongIndex].src}></audio>
-        <h4>Now Playing</h4>
+        <div className="now-playing-text">Now Playing</div>
         <PlayerDetails song={props.songs[props.currentSongIndex]}/>
         <PlayerControls 
           isPlaying={isPlaying} 

@@ -9,8 +9,8 @@ function App() {
           "urlEnd":"/project-onism/bgmusic"
        },
        {
-          "settingName":"Feel Good",
-          "urlEnd":"/project-onism/feelgood"
+          "settingName":"Elevated",
+          "urlEnd":"/project-onism/elevated"
        }
     ],
     "bgMusicTypes":[
@@ -19,18 +19,18 @@ function App() {
           "urlEnd":"/project-onism/bgmusic/lofi"
        },
        {
-          "settingName":"Ambient",
-          "urlEnd":"/project-onism/bgmusic/ambient"
+          "settingName":"space",
+          "urlEnd":"/project-onism/bgmusic/space"
        }
     ],
-    "feelGoodMusicTypes":[
+    "elevatedMusicTypes":[
       {
          "settingName":"Chill",
-         "urlEnd":"/project-onism/feelgood/chill"
+         "urlEnd":"/project-onism/elevated/chill"
       },
       {
-         "settingName":"Rave",
-         "urlEnd":"/project-onism/feelgood/rave"
+         "settingName":"Dance Party",
+         "urlEnd":"/project-onism/elevated/dance"
       }
    ]
  }

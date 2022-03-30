@@ -68,6 +68,7 @@
       }
     }
     .player-comp {
+      width: 30%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -78,6 +79,38 @@
       border-top-right-radius: 15px 32px;
       border-bottom-right-radius: 15px 32px;
       border-bottom-left-radius: 15px 32px;
+      box-shadow: 3px 15px 8px -10px rgb(90 125 124 / 30%);
+      .now-playing-text {
+        font-size: 1rem;
+      }
+      .player-details {
+        margin-top: 1rem;
+        .song-title {
+          margin-bottom: 1rem;
+          text-align: center;
+        }
+        .song-artist {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+      }
+      .player-controls {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        button {
+          font-size: 1rem;
+          color: #DADFF7;
+          background-color: #232C33;
+          border-radius: 1rem;
+          border-color: #6e7491;
+          padding: 0.5rem;
+        }
+        .play-btn {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
     }
   }
 }
