@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-onism/static/css/main.938a90f2.css",
-    "main.js": "/project-onism/static/js/main.618fcaf9.js",
+    "main.css": "/project-onism/static/css/main.5f6f7b4e.css",
+    "main.js": "/project-onism/static/js/main.10ecc5b3.js",
     "static/js/787.f2d4b2f1.chunk.js": "/project-onism/static/js/787.f2d4b2f1.chunk.js",
     "index.html": "/project-onism/index.html",
-    "main.938a90f2.css.map": "/project-onism/static/css/main.938a90f2.css.map",
-    "main.618fcaf9.js.map": "/project-onism/static/js/main.618fcaf9.js.map",
+    "main.5f6f7b4e.css.map": "/project-onism/static/css/main.5f6f7b4e.css.map",
+    "main.10ecc5b3.js.map": "/project-onism/static/js/main.10ecc5b3.js.map",
     "787.f2d4b2f1.chunk.js.map": "/project-onism/static/js/787.f2d4b2f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.938a90f2.css",
-    "static/js/main.618fcaf9.js"
+    "static/css/main.5f6f7b4e.css",
+    "static/js/main.10ecc5b3.js"
   ]
 }
