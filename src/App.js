@@ -29,7 +29,7 @@ function App() {
          "urlEnd":"/project-onism/elevated/chill"
       },
       {
-         "settingName":"Dance Party",
+         "settingName":"Party",
          "urlEnd":"/project-onism/elevated/dance"
       }
    ]
